@@ -16,16 +16,9 @@ class ViewController: UIViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        redLightLabel.layer.opacity = 0.3
         redLightLabel.layer.cornerRadius = 60
-        
-        yellowLightLabel.layer.opacity = 0.3
         yellowLightLabel.layer.cornerRadius = 60
-        
-        greenLightLabel.layer.opacity = 0.3
         greenLightLabel.layer.cornerRadius = 60
-        
         startButton.layer.cornerRadius = 10
     }
 
